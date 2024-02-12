@@ -1,0 +1,94 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+
+
+
+ body{
+  background-color:black ;
+   
+  } 
+   
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .board{
+    height: 65vh;
+    width: 40vw;
+    margin-left: 30vw;
+    margin-top: 10vh;
+    
+  }
+  
+  .tic1{
+    
+    /* background-color: white; */
+    height: 33%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  
+  .tic2{
+   
+    /* background-color: white; */
+    height: 33%;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  
+  
+  .tic3{
+    
+    /* background-color: white; */
+    height: 33%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .mark1,.mark2,.mark3,.mark4,.mark5,.mark6,.mark7,.mark8,.mark0{
+    height: 100%;
+    width: 33%;
+    background-color: rgb(66, 65, 65);
+    border: 1px solid black;
+    font-size: 70px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 1px;
+    color: yellowgreen;
+  }
+  
+  .sym{
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: greenyellow;
+    margin-top:5vh;
+    margin-left: 30vw;
+  }
+  
+
+  .display{
+    height: 5vh;
+    width:100%;
+    color: white;
+   font-size: 30px;
+font-family: Sixtyfour;
+margin-top: 5vh;
+text-align: center;
+color:greenyellow;
+  }
+
+  
